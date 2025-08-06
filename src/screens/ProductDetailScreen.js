@@ -16,7 +16,6 @@ import Toast from 'react-native-toast-message';
 
 const { width } = Dimensions.get('window');
 
-// 🔹 Görsel için ayrı bileşen
 const ImageWithLoader = ({ uri }) => {
   const [imgLoading, setImgLoading] = useState(true);
 
@@ -92,7 +91,6 @@ const ProductDetailScreen = ({ route }) => {
 
   return (
     <View style={styles.container}>
-      {/* Ürün görselleri */}
       <FlatList
         data={product.images}
         keyExtractor={(item, index) => index.toString()}
@@ -105,7 +103,6 @@ const ProductDetailScreen = ({ route }) => {
         viewabilityConfig={viewabilityConfig}
       />
 
-      {/* Dot göstergesi */}
       <View style={styles.dotsContainer}>
         {product.images.map((_, index) => (
           <View
