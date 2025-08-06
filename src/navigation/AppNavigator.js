@@ -17,7 +17,7 @@ const CartIcon = ({ navigation }) => {
 
   return (
     <TouchableOpacity onPress={() => navigation.navigate('Cart')}>
-      <View style={{ marginRight: 15 }}>
+      <View style={{ marginRight: 15,marginTop: 10 }}>
         <Icon name="shopping-cart" size={28} color="#ed1c24" />
         {totalCount > 0 && (
           <View

@@ -1,0 +1,1 @@
+LaunchScreen.storyboard dosyasını hazırlayıp vere
