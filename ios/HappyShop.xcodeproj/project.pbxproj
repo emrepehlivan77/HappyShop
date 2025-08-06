@@ -12,6 +12,10 @@
 		3A3C8E2ACA103C2053F6B8C9 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9B27D7272E43545800ED275D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9B27D7222E43545800ED275D /* PrivacyInfo.xcprivacy */; };
+		9B27D7282E43545800ED275D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B27D71F2E43545800ED275D /* Images.xcassets */; };
+		9B27D7292E43545800ED275D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B27D7212E43545800ED275D /* LaunchScreen.storyboard */; };
+		9B27D72A2E43545800ED275D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B27D71E2E43545800ED275D /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,13 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-HappyShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HappyShop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = HappyShop/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = HappyShop/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B27D71B2E43545800ED275D /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		9B27D71C2E43545800ED275D /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		9B27D71E2E43545800ED275D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B27D71F2E43545800ED275D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9B27D7202E43545800ED275D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B27D7212E43545800ED275D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B27D7222E43545800ED275D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -42,6 +53,7 @@
 		13B07FAE1A68108700A75B9A /* HappyShop */ = {
 			isa = PBXGroup;
 			children = (
+				9B27D7232E43545800ED275D /* HappyShop */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				761780EC2CA45674006654EE /* AppDelegate.swift */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
@@ -87,6 +99,28 @@
 				13B07F961A680F5B00A75B9A /* HappyShop.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9B27D71D2E43545800ED275D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9B27D71B2E43545800ED275D /* Ionicons.ttf */,
+				9B27D71C2E43545800ED275D /* MaterialIcons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9B27D7232E43545800ED275D /* HappyShop */ = {
+			isa = PBXGroup;
+			children = (
+				9B27D71D2E43545800ED275D /* Fonts */,
+				9B27D71E2E43545800ED275D /* AppDelegate.swift */,
+				9B27D71F2E43545800ED275D /* Images.xcassets */,
+				9B27D7202E43545800ED275D /* Info.plist */,
+				9B27D7212E43545800ED275D /* LaunchScreen.storyboard */,
+				9B27D7222E43545800ED275D /* PrivacyInfo.xcprivacy */,
+			);
+			path = HappyShop;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -160,6 +194,9 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				9B27D7272E43545800ED275D /* PrivacyInfo.xcprivacy in Resources */,
+				9B27D7282E43545800ED275D /* Images.xcassets in Resources */,
+				9B27D7292E43545800ED275D /* LaunchScreen.storyboard in Resources */,
 				3A3C8E2ACA103C2053F6B8C9 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B27D72A2E43545800ED275D /* AppDelegate.swift in Sources */,
 				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
